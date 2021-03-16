@@ -1,4 +1,4 @@
-
+/* header */
 header{
     background-color: white;
     height: 100px;
@@ -18,7 +18,7 @@ h1{
     vertical-align: middle;
     font-size: 40px;
 }
-
+/* Main opacity */
 .box{
     background-color:#f6f8f9;
     border: 0.1px solid #f6f8f9;
@@ -27,6 +27,7 @@ h1{
     margin-left: 30px;
 }
 
+/* label and buttons*/
 .label{
     background-color: white;
     width: 70%;   
@@ -44,7 +45,7 @@ h1{
     background-color: cornflowerblue;
     color: white;
     border-radius: 5px;
-    margin-left: 50px;
+    margin-left: 40px;
     padding: 5px;
 }
 
@@ -57,14 +58,16 @@ h1{
     margin-left: 10px;
 }
 
+/* white background main screen */
 .screen{
     width: 70%;
-    height: 800px;
+    height: 600px;
     background-color: white;
     margin: auto;
     margin-top: 2px;
 }
 
+/* Coordinates of text */
 .prima-voce{
     margin-top: 2px;
     }
@@ -86,6 +89,7 @@ p{
     margin-left: 40px;
 }
 
+/* symbols */
 .check::before{
     content: '\2713';
     padding: 5px;
@@ -95,6 +99,18 @@ p{
     font-size: 8px;
     margin-right: 10px;
 }
+.cross::before{
+    content: ' \2715';
+    padding: 5px;
+    border-radius: 50%;
+    border:1px solid red;
+    color: red;
+    font-size: 8px;
+    margin-right: 10px;
+
+}
+
+/* right side span buttons */
 .button{
     padding: 5px;
     font-size: 10px;
@@ -103,6 +119,22 @@ p{
     border-radius: 10px;
 }
 
+/* right side span buttons colors */
 .blue{
     background-color: cornflowerblue;
+}
+.violet{
+    background-color: violet;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.pink{
+    background-color: pink;
+}
+.yellow{
+    background-color: rgb(177, 177, 38);
 }
