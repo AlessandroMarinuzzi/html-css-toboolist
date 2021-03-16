@@ -56,3 +56,12 @@ h1{
     padding: 5px;
     margin-left: 10px;
 }
+
+.screen{
+    width: 70%;
+    height: 800px;
+    background-color: white;
+    margin: auto;
+    margin-top: 2px;
+}
+
