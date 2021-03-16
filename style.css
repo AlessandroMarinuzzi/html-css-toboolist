@@ -6,13 +6,15 @@ header{
 #logo{
     width: auto;
     height: 50px;
-    line-height: 60px;
+    line-height: 50px;
     vertical-align: middle;
     padding-left:30px;
+    margin-bottom: 15px;
     background-color: inherit;
 }
 h1{
     display: inline-block;
     background-color: inherit;
-    line-height: 60px;
+    line-height: 100px;
+    font-size: 40px;
 }
