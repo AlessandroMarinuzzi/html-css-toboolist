@@ -65,3 +65,18 @@ h1{
     margin-top: 2px;
 }
 
+.prima-voce{
+    margin-top: 2px;
+    padding: 30px;
+}
+
+h3::before{
+    content: ' \25BC';
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 5px;
+}
+h3{
+    font-size: 25px;
+    
+}
