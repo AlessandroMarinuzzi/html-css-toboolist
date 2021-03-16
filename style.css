@@ -1,20 +1,38 @@
+
 header{
     background-color: white;
     height: 100px;
-    padding: 15px 0;
-}
-#logo{
-    width: auto;
-    height: 50px;
     line-height: 50px;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.logo{
+    width: auto;
     vertical-align: middle;
-    padding-left:30px;
-    margin-bottom: 15px;
+    margin-left:30px;
     background-color: inherit;
 }
 h1{
     display: inline-block;
     background-color: inherit;
-    line-height: 100px;
+    vertical-align: middle;
     font-size: 40px;
+}
+
+.box{
+    background-color:#f6f8f9;
+    border: 0.1px solid #f6f8f9;
+    width: 1000px;
+    height: 1000px;
+    margin-left: 30px;
+}
+
+.label{
+    background-color: white;
+    height: 50px;
+    width: 70%;   
+    margin: auto;
+    margin-top: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
